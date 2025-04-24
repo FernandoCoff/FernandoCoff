@@ -126,7 +126,7 @@ Me chamo Luiz Fernando, tenho 20 anos e sou natural de Minas Gerais. Iniciei min
 
 ### 📊 Estatísticas
 
-<p>
+<p align="left">
   <img 
         align="left" 
         alt="GitHub Stats" 
