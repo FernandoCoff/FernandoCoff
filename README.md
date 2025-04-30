@@ -126,21 +126,10 @@ Me chamo Luiz Fernando, tenho 20 anos e sou natural de Minas Gerais. Iniciei min
 
 ### 📊 Estatísticas
 
-<p align="left">
-  <img 
-        align="left" 
-        alt="GitHub Stats" 
-        height="200" 
-        style="padding-right: 10px;" 
-        src="https://github-readme-stats.vercel.app/api?username=FernandoCoff&show_icons=true&theme=tokyonight&layout=compact&include_all_commits=true&locale=pt-br" 
-  />
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=FernandoCoff&show_icons=true&theme=dark)   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FernandoCoff&theme=dark&layout=compact)
 
-    
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandocoff&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
+---
 
-</p>
+### 🔗 Repositórios
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=FernandoCoff&repo=bmi-calculator&theme=dark)
