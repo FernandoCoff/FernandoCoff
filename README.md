@@ -90,11 +90,11 @@ Me chamo Luiz Fernando, tenho 20 anos e sou natural de Minas Gerais. Iniciei min
 />
 <img 
     align="left" 
-    alt="Laravel" 
-    title="Laravel"
+    alt="mongodb" 
+    title="mongodb"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" 
 />
 <img 
     align="left" 
