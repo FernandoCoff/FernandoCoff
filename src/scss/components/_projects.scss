@@ -1,0 +1,73 @@
+@use 'variables.scss';
+
+.projects{
+    max-width: 1250px;
+    padding: 0 25px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        color: variables.$color-white;
+        font-size: 2.25rem;
+        font-weight: 500;
+        margin-bottom: .5rem;
+    }
+
+    .p_sub{
+        color: variables.$color-gray;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        &__item{
+            padding: 2rem;
+            width: 250px;
+            height: 150px;
+            background-color: variables.$bg-secondary;
+            border: 2px solid variables.$bg-border;
+            transition: .4s;
+            text-decoration: none;
+
+            h4{
+                color: variables.$color-main;
+                font-weight: 500;
+            }
+
+            p{
+                color: variables.$color-gray;
+                margin-top: 1rem;
+            }
+
+            &:hover{
+                border-color: variables.$color-main;
+            }
+        }
+
+    }
+    @media(max-width: 1000px){
+        padding: 2rem;
+        &__container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media(max-width: 700px){
+        padding: 2rem;
+        &__container{
+            width: 100%;
+            grid-template-columns: 1fr;
+
+            &__item{
+                width: 100%;
+            }
+        }
+    }
+}

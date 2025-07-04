@@ -1,0 +1,94 @@
+@use 'variables.scss';
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+    overflow: hidden;
+
+    .container_hero{
+        max-width: 1250px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0 25px;
+    }
+
+
+    &__title{
+        color: variables.$color-white;
+        font-size: 2.35rem;
+        line-height: 140%;
+        font-weight: 500;
+
+        strong{
+            color: variables.$color-main;
+            font-weight: 500;
+        }
+    }
+
+    &__subtitle{
+        color: variables.$color-gray;
+        font-size: 1.35rem;
+        margin-top: 2rem;
+        line-height: 140%;
+        font-weight: 500;
+    }
+    
+
+    &__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 100vh;
+        position: relative;
+        left: 17.5%;
+
+        img{
+            width: 500px;
+        }
+    }
+    
+    @media(max-width: 1400px){
+        .hero{
+            &__right{
+                left: 12.5%;
+            }
+        }
+    }
+    @media(max-width: 1300px){
+        .hero{
+            &__right{
+                left: 10%;
+            }
+        }
+    }
+    @media(max-width: 1200px){
+        .hero{
+            &__right{
+                left: 7.5%;
+            }
+        }
+    }
+    @media(max-width: 1000px){
+        .hero{
+            &__right{
+                display: none;
+            }
+            &__title, &__subtitle{
+                text-align: center;
+            }
+        }
+    }
+}
