@@ -8,9 +8,9 @@ const tools = [
     { img : 'https://iuricode.com/assets/icons/styled-components.svg', description : 'Styled-components é uma biblioteca que ultiliza o concetito CSS in JS, que permite escrever código CSS ultilizando JavaScript.'},
     { img : 'https://iuricode.com/assets/icons/tailwindcss.svg', description : 'Tailwind CSS é um Framework CSS que nos fornece classes ultilitarias com a finalidade de estilizar páginas.'},
     { img : 'https://iuricode.com/assets/icons/typescript.svg', description : 'TypeScript é um superset do JavaScript que incliu recursos que não estão presentes na linguagem de foma nativa, além de torná-la estática.'},
-    { img : '../assets/img/node.svg', description : 'Node.js é um ambiente de execução JavaScript de código aberto e multiplataforma que permite executar código JavaScript no lado do servidor.'},
-    { img : '../assets/img/postgree.svg', description : 'PostgreSQL é um sistema gerenciador de banco de dados relacional (SGBDR) de código aberto, robusto e extensível, conhecido por sua confiabilidade, integridade de dados e conformidade com padrões SQL.'},
-    { img : '../assets/img/python.svg', description : 'Python é uma linguagem de programação versátil e de alto nível, conhecida por sua sintaxe clara e legível, amplamente utilizada em desenvolvimento web, análise de dados, inteligência artificial e automação.'}
+    { img : 'https://assets-hazel-sigma.vercel.app/node.svg', description : 'Node.js é um ambiente de execução JavaScript de código aberto e multiplataforma que permite executar código JavaScript no lado do servidor.'},
+    { img : 'https://assets-hazel-sigma.vercel.app/postgree.svg', description : 'PostgreSQL é um sistema gerenciador de banco de dados relacional (SGBDR) de código aberto, robusto e extensível, conhecido por sua confiabilidade, integridade de dados e conformidade com padrões SQL.'},
+    { img : 'https://assets-hazel-sigma.vercel.app/python.svg', description : 'Python é uma linguagem de programação versátil e de alto nível, conhecida por sua sintaxe clara e legível, amplamente utilizada em desenvolvimento web, análise de dados, inteligência artificial e automação.'}
 ]
 
 const toolsContainer = document.getElementById('tools')
