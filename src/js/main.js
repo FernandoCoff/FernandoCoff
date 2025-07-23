@@ -14,18 +14,12 @@ const tools = [
 ]
 
 const toolsContainer = document.getElementById('tools')
-
-
-
 tools.forEach((item) =>{
     const newTool = document.createElement('div')
     newTool.className = 'tools__right__item'
     newTool.innerHTML = `<img src="${item.img}">`
     toolsContainer.appendChild(newTool)
 })
-
-
-
 const toolMsg = document.querySelectorAll('.tools__right__item')
 const msg = document.getElementById('description-tool')
 toolMsg.forEach((item, index) => {
@@ -36,3 +30,16 @@ toolMsg.forEach((item, index) => {
         msg.innerText = '*Passe o cursor do mouse no card para ler*'
     })
 })
+
+// EFEITO NO TEXTO
+const text = document.getElementById('hero-subtitle')
+const textAnimation = (element)=> {
+    const textArray = element.innerHTML.split('')
+    element.innerHTML = ''
+    textArray.forEach((letter, index)=>{
+        setTimeout(()=>{
+            element.innerHTML += letter
+        },100*index)
+    })
+}
+textAnimation(text)
